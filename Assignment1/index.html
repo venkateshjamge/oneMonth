@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <style>
+        body {
+            background-color: coral;
+        }
+    </style>
+    <script>
+        var cars = ["BMD", "TATA", "Hero"];
+        var img = ["images/bmw.jpg", "images/tata.jpg", "images/hero.jpg"];
+
+        var charname = Math.floor(Math.random() * cars.length);
+        var name = prompt("Enter Your Name:");
+        if (name === "Vicky" || name == "Chris") {
+            document.write("<h1> " + name + " Has won " + cars[charname] + "!</h1>");
+            document.write("<img src='" + img[charname] + "'>");
+        } else {
+            document.write("You Won None!");
+        }
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
