@@ -1,0 +1,33 @@
+body {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.container {
+    margin: 7%;
+}
+
+.container-textinput {
+    border-radius: 10px;
+    width: 60%;
+    padding: 20px;
+    display: inline-block;
+    background-color: chartreuse;
+}
+
+.js-go {
+    width: 10%;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(71, 182, 185);
+}
+
+.js-go:hover {
+    background-color: rgb(4, 247, 255);
+}
+
+.container-img {
+    width: 30%;
+    display: inline-block;
+}
